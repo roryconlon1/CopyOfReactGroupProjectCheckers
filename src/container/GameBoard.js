@@ -37,7 +37,6 @@ const GameBoard = () => {
     const [boardElements, setBoardElements, refBoardElements] = useState([])  // the information that is held in each square eg, x,y, colour etc
 
     const [pieceState, setPieceState] = useState([
-        ['b', '', 'b', '', '', '', 'r', ''],
         ['', 'b', '', '', '', 'r', '', 'r'],
         ['b', '', 'b', '', '', '', 'r', ''],
         ['', 'b', '', '', '', 'r', '', 'r'],
@@ -45,6 +44,7 @@ const GameBoard = () => {
         ['', 'b', '', '', '', 'r', '', 'r'],
         ['b', '', 'b', '', '', '', 'r', ''],
         ['', 'b', '', '', '', 'r', '', 'r'],
+        ['b', '', 'b', '', '', '', 'r', 'r'],
     ]);
     const [startSquare, setStartSquare, refStartSquare] = useState(null);
 
